@@ -31,14 +31,8 @@ function generatedWord() {
 $(document).ready(function(){
 	$("button").on("click", function(){
         $("#quoteDisplay").text(generatedWord());
-/*        if (function(){{
-            if ("#quoteDisplay" != null) {
-
-            }
-        }*/
 	});
 });
-
 
 
 
