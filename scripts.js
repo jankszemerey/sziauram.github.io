@@ -25,7 +25,7 @@ function generatedWord() {
     let secondPart = fonev[getRandomIntInclusive(0, fonev.length - 1)]
     let karomkodas = firstPart + (" ") + secondPart;
     generatedWordArr.push(karomkodas);
-    return generatedWordArr;
+    return karomkodas;
 }
 
 $(document).ready(function(){
